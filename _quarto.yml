@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jacob Lawrence"
+  search: false
+  navbar:
+    background: primary
+    left:
+      - text: "CV"
+        file: CV\index.qmd
+      - Research\index.qmd
+      - Teaching\index.qmd
+      - Contact\index.qmd
+    tools:
+      - icon: envelope
+        href: mailto:jlqbx@missouri.edu
+      - icon: twitter
+        href: https://twitter.com/jtylawrence
+        
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: false
+    # page-layout: full
+
+editor: visual
+
+
