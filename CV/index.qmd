@@ -3,7 +3,7 @@ title: "Curriculum Vitae"
 format:
     html: default
 ---
-Download <a href="/CV_template.pdf">CV</a> <br>
+Download File Here
 
 ---
 

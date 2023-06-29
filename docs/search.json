@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About Me",
-    "section": "",
-    "text": "My name is Jacob Lawrence. I am a first year graduate student at the University of Missouri. My interests primarily lie in Analysis (Functional and Harmonic Analysis).\nBefore the University of Missouri, I attended the University of Alabama where I recieved a Bachelor of Science in Mathematics & Philosophy and a Masters of Arts in Mathematics."
-  },
-  {
     "objectID": "Contact/index.html",
     "href": "Contact/index.html",
     "title": "Contact",
@@ -18,7 +11,7 @@
     "href": "CV/index.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Download CV"
+    "text": "Download File Here"
   },
   {
     "objectID": "CV/index.html#education",
@@ -35,18 +28,11 @@
     "text": "Teaching Experience\n\nC2Education  Ardmore, PA    Teacher  Aug. 2022 - Present \n\n\nUniveristy of Alabama  Tuscaloosa, AL    Teaching Assistant  Aug. 2019 - Dec. 2021"
   },
   {
-    "objectID": "Research/index.html",
-    "href": "Research/index.html",
-    "title": "Research",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About Me",
     "section": "",
-    "text": "For my master’s degree, I wrote a paper on the Hardy-Littlewood maximal function under my advisor Dr. Kabe Moen. That paper can be found  here"
-  },
-  {
-    "objectID": "Research/index.html#projects",
-    "href": "Research/index.html#projects",
-    "title": "Research",
-    "section": "",
-    "text": "For my master’s degree, I wrote a paper on the Hardy-Littlewood maximal function under my advisor Dr. Kabe Moen. That paper can be found  here"
+    "text": "My name is Jacob Lawrence. I am a first year graduate student at the University of Missouri. My interests primarily lie in Analysis (Functional and Harmonic Analysis).\nBefore the University of Missouri, I attended the University of Alabama where I recieved a Bachelor of Science in Mathematics & Philosophy and a Masters of Arts in Mathematics.\nThis is a test file."
   },
   {
     "objectID": "Teaching/index.html",
@@ -75,5 +61,19 @@
     "title": "Teaching",
     "section": "Tutoring Experience",
     "text": "Tutoring Experience\nPreviously, I have worked as a teacher at C2Education in Ardmore, PA. I worked with students from second grade to twelth grade in various levels of mathematics."
+  },
+  {
+    "objectID": "Research/index.html",
+    "href": "Research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "For my master’s degree, I wrote a paper on the Hardy-Littlewood maximal function under my advisor Dr. Kabe Moen. That paper can be found  here"
+  },
+  {
+    "objectID": "Research/index.html#projects",
+    "href": "Research/index.html#projects",
+    "title": "Research",
+    "section": "",
+    "text": "For my master’s degree, I wrote a paper on the Hardy-Littlewood maximal function under my advisor Dr. Kabe Moen. That paper can be found  here"
   }
 ]
