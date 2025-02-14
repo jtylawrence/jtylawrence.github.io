@@ -4,4 +4,4 @@ format:
     html: default
 ---
 
-You can find a list of courses I have taken <a href="Files/Coursework/Coursework.pdf"> here </a>.
+A list of courses I have taken (at the University of Missorui) can be found <a href="Files/Coursework/Coursework.pdf"> here </a>.

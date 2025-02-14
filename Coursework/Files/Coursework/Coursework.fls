@@ -1,6 +1,6 @@
-PWD c:\Users\jacob\Desktop\Grad-School\Coursework
+PWD c:\Users\jacob\Desktop\jtylawrence.github.io\Coursework\Files\Coursework
 INPUT C:\Users\jacob\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\jacob\Desktop\Grad-School\Coursework\Coursework.tex
+INPUT c:\Users\jacob\Desktop\jtylawrence.github.io\Coursework\Files\Coursework\Coursework.tex
 OUTPUT Coursework.log
 INPUT C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.25)  5 FEB 2025 21:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.25)  14 FEB 2025 04:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/jacob/Desktop/Grad-School/Coursework/Coursework.tex
-(c:/Users/jacob/Desktop/Grad-School/Coursework/Coursework.tex
+**c:/Users/jacob/Desktop/jtylawrence.github.io/Coursework/Files/Coursework/Coursework.tex
+(c:/Users/jacob/Desktop/jtylawrence.github.io/Coursework/Files/Coursework/Coursework.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -660,14 +660,14 @@ L3 programming layer <2024-05-27>
  ) 
 Here is how much of TeX's memory you used:
  22581 strings out of 473904
- 482680 string characters out of 5726600
+ 482896 string characters out of 5726600
  1935908 words of memory out of 5000000
  45048 multiletter control sequences out of 15000+600000
  571019 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,5n,110p,492b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,5n,110p,519b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Coursework.pdf (2 pages, 69768 bytes).
+Output written on Coursework.pdf (2 pages, 70123 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
