@@ -12,6 +12,7 @@ website:
         file: CV\index.qmd
       - Research\index.qmd
       - Teaching\index.qmd
+      - Coursework\index.qmd
       - Contact\index.qmd
     tools:
       - icon: envelope

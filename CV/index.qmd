@@ -3,38 +3,26 @@ title: "Curriculum Vitae"
 format:
     html: default
 ---
+
 Download File Here
 
----
+------------------------------------------------------------------------
 
 ## Education
+
 <p style="text-align:left;">
-     *University of Missouri*
-    <span style="float:right;">
-        Columbia, MO
-    </span> <br>
-    <space style="text-align:left;">
-    Ph.D. in Mathematics
-    <span style="float:right;">
-        Expected Spring 2028
-    </span>
-</p> 
+
+*University of Missouri* [Columbia, MO]{style="float:right;"} <br> <space style="text-align:left;"> Ph.D. in Mathematics [Expected Spring 2028]{style="float:right;"}
+
+</p>
+
 <p style="text-align:left;">
-    *University of Alabama*
-    <span style="float:right;">
-        Tuscaloosa, AL 
-    </span> <br>
-    <space style="text-align:left;">
-    M.A. in Mathematics
-    <span style="float:right;">
-        Conferred May 2022 <br>
-    </span>
-    <space style="text-align:left;">
-    <br> B.S. in Mathematics & Philosophy, *summa cum laude*
-    <span style="float:right;">
-        Conferred May 2022 <br>
-    </span>
-</p> 
+
+*University of Alabama* [Tuscaloosa, AL]{style="float:right;"} <br> <space style="text-align:left;"> M.A. in Mathematics [Conferred May 2022 <br>]{style="float:right;"} <space style="text-align:left;"> <br> B.S. in Mathematics & Philosophy, *summa cum laude* [Conferred May 2022 <br>]{style="float:right;"}
+
+</p>
+
+```{=html}
 <!--
 <p style="text-align:left;">
     *Univeristy of Alabama*
@@ -48,42 +36,26 @@ Download File Here
     </span>
 </p> 
 -->
----
+```
+
+------------------------------------------------------------------------
 
 ## Teaching Experience
 
 <p style="text-align:left;">
-    *University of Missouri*
-    <span style="float:right;">
-        Columbia, MO
-    </span> <br>
-    <space style="text-align:left;">
-    Teaching Assistant
-    <span style="float:right;">
-        Aug. 2023 - Present
-    </span>
-</p> 
+
+*University of Missouri* [Columbia, MO]{style="float:right;"} <br> <space style="text-align:left;"> Teaching Assistant [Aug. 2023 - Present]{style="float:right;"}
+
+</p>
 
 <p style="text-align:left;">
-    *C2Education*
-    <span style="float:right;">
-        Ardmore, PA
-    </span> <br>
-    <space style="text-align:left;">
-    Teacher
-    <span style="float:right;">
-        Aug. 2022 - June 2023
-    </span>
-</p> 
+
+*C2Education* [Ardmore, PA]{style="float:right;"} <br> <space style="text-align:left;"> Teacher [Aug. 2022 - June 2023]{style="float:right;"}
+
+</p>
 
 <p style="text-align:left;">
-    *Univeristy of Alabama*
-    <span style="float:right;">
-        Tuscaloosa, AL
-    </span> <br>
-    <space style="text-align:left;">
-    Teaching Assistant
-    <span style="float:right;">
-        Aug. 2019 - Dec. 2021
-    </span>
-</p> 
+
+*Univeristy of Alabama* [Tuscaloosa, AL]{style="float:right;"} <br> <space style="text-align:left;"> Teaching Assistant [Aug. 2019 - Dec. 2021]{style="float:right;"}
+
+</p>

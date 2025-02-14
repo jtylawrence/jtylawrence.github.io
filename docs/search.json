@@ -18,14 +18,14 @@
     "href": "CV/index.html#education",
     "title": "Curriculum Vitae",
     "section": "Education",
-    "text": "Education\n\nUniversity of Missouri  Columbia, MO    Ph.D. in Mathematics  Expected Spring 2028 \n\n\nUniversity of Alabama  Tuscaloosa, AL    M.A. in Mathematics  Conferred May 2022     B.S. in Mathematics & Philosophy, summa cum laude  Conferred May 2022"
+    "text": "Education\n\nUniversity of Missouri Columbia, MO   Ph.D. in Mathematics Expected Spring 2028\n\n\nUniversity of Alabama Tuscaloosa, AL   M.A. in Mathematics Conferred May 2022    B.S. in Mathematics & Philosophy, summa cum laude Conferred May 2022"
   },
   {
     "objectID": "CV/index.html#teaching-experience",
     "href": "CV/index.html#teaching-experience",
     "title": "Curriculum Vitae",
     "section": "Teaching Experience",
-    "text": "Teaching Experience\n\nUniversity of Missouri  Columbia, MO    Teaching Assistant  Aug. 2023 - Present \n\n\nC2Education  Ardmore, PA    Teacher  Aug. 2022 - June 2023 \n\n\nUniveristy of Alabama  Tuscaloosa, AL    Teaching Assistant  Aug. 2019 - Dec. 2021"
+    "text": "Teaching Experience\n\nUniversity of Missouri Columbia, MO   Teaching Assistant Aug. 2023 - Present\n\n\nC2Education Ardmore, PA   Teacher Aug. 2022 - June 2023\n\n\nUniveristy of Alabama Tuscaloosa, AL   Teaching Assistant Aug. 2019 - Dec. 2021"
   },
   {
     "objectID": "index.html",
@@ -89,5 +89,19 @@
     "title": "Teaching",
     "section": "Past Courses (University of Missouri)",
     "text": "Past Courses (University of Missouri)\nFall 2024: Teaching Assistant, MATH 1300 - Finite Mathematics\nSpring 2024: Teaching Assistant, MATH 1100 - College Algebra\nFall 2023: Teaching Assistant, MATH 1100 - College Algebra"
+  },
+  {
+    "objectID": "Coursework/index.html",
+    "href": "Coursework/index.html",
+    "title": "Coursework",
+    "section": "",
+    "text": "Here is a list of questions and proofs I used to prepare for the Algebra Qualifying Exam:  here \nTest  here"
+  },
+  {
+    "objectID": "Coursework/index.html#coursework",
+    "href": "Coursework/index.html#coursework",
+    "title": "Coursework",
+    "section": "",
+    "text": "Here is a list of questions and proofs I used to prepare for the Algebra Qualifying Exam:  here \nTest  here"
   }
 ]
