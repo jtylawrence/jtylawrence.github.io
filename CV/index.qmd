@@ -9,7 +9,7 @@ Download File Here
 
 ## Education
 <p style="text-align:left;">
-     *Univeristy of Missouri*
+     *University of Missouri*
     <span style="float:right;">
         Columbia, MO
     </span> <br>
@@ -20,7 +20,7 @@ Download File Here
     </span>
 </p> 
 <p style="text-align:left;">
-    *Univeristy of Alabama*
+    *University of Alabama*
     <span style="float:right;">
         Tuscaloosa, AL 
     </span> <br>
@@ -51,6 +51,19 @@ Download File Here
 ---
 
 ## Teaching Experience
+
+<p style="text-align:left;">
+    *University of Missouri*
+    <span style="float:right;">
+        Columbia, MO
+    </span> <br>
+    <space style="text-align:left;">
+    Teaching Assistant
+    <span style="float:right;">
+        Aug. 2023 - Present
+    </span>
+</p> 
+
 <p style="text-align:left;">
     *C2Education*
     <span style="float:right;">
@@ -59,7 +72,7 @@ Download File Here
     <space style="text-align:left;">
     Teacher
     <span style="float:right;">
-        Aug. 2022 - Present
+        Aug. 2022 - June 2023
     </span>
 </p> 
 
