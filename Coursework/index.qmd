@@ -4,6 +4,4 @@ format:
     html: default
 ---
 
-## Coursework
-
-You can find a list of courses I have taken <a href="Files/Coursework/Coursework.pdf"> here </a>
+You can find a list of courses I have taken <a href="Files/Coursework/Coursework.pdf"> here </a>.

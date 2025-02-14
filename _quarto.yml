@@ -13,7 +13,6 @@ website:
       - Research\index.qmd
       - Teaching\index.qmd
       - Coursework\index.qmd
-      - Contact\index.qmd
     tools:
       - icon: envelope
         href: mailto:jlqbx@missouri.edu
@@ -28,5 +27,3 @@ format:
     # page-layout: full
 
 editor: visual
-
-
