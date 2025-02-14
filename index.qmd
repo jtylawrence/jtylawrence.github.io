@@ -4,8 +4,6 @@ about:
     template: broadside
 ---
 
-My name is Jacob Lawrence. I am a first year graduate student at the University of Missouri. My interests primarily lie in Analysis (Functional and Harmonic Analysis).
+My name is Jacob Lawrence. I am a second year graduate student at the University of Missouri. My research interests primarily lie in Analysis and Partial Differential Equations, but currently, I am primarily focused on finishing my qualifying exams. 
 
-Before the University of Missouri, I attended the University of Alabama where I recieved a Bachelor of Science in Mathematics & Philosophy and a Masters of Arts in Mathematics. 
-
-Test Test
+Before the University of Missouri, I attended the University of Alabama where I received a Bachelor of Science in Mathematics & Philosophy and a Masters of Arts in Mathematics.

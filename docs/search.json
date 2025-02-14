@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "About Me",
     "section": "",
-    "text": "My name is Jacob Lawrence. I am a first year graduate student at the University of Missouri. My interests primarily lie in Analysis (Functional and Harmonic Analysis).\nBefore the University of Missouri, I attended the University of Alabama where I recieved a Bachelor of Science in Mathematics & Philosophy and a Masters of Arts in Mathematics.\nTest Test"
+    "text": "My name is Jacob Lawrence. I am a second year graduate student at the University of Missouri. My research interests primarily lie in Analysis and Partial Differential Equations, but currently, I am primarily focused on finishing my qualifying exams.\nBefore the University of Missouri, I attended the University of Alabama where I received a Bachelor of Science in Mathematics & Philosophy and a Masters of Arts in Mathematics."
   },
   {
     "objectID": "Research/index.html",
@@ -53,7 +53,7 @@
     "href": "Teaching/index.html",
     "title": "Teaching",
     "section": "",
-    "text": "Currently I am not teaching any courses."
+    "text": "Teaching Assistant, MATH 1300 - Finite Mathematics"
   },
   {
     "objectID": "Teaching/index.html#current-course",
@@ -75,5 +75,19 @@
     "title": "Teaching",
     "section": "Tutoring Experience",
     "text": "Tutoring Experience\nPreviously, I have worked as a teacher at C2Education in Ardmore, PA. I worked with students from second grade to twelth grade in various levels of mathematics."
+  },
+  {
+    "objectID": "Teaching/index.html#current-course-spring-2025",
+    "href": "Teaching/index.html#current-course-spring-2025",
+    "title": "Teaching",
+    "section": "",
+    "text": "Teaching Assistant, MATH 1300 - Finite Mathematics"
+  },
+  {
+    "objectID": "Teaching/index.html#past-courses-university-of-missouri",
+    "href": "Teaching/index.html#past-courses-university-of-missouri",
+    "title": "Teaching",
+    "section": "Past Courses (University of Missouri)",
+    "text": "Past Courses (University of Missouri)\nFall 2024: Teaching Assistant, MATH 1300 - Finite Mathematics\nSpring 2024: Teaching Assistant, MATH 1100 - College Algebra\nFall 2023: Teaching Assistant, MATH 1100 - College Algebra"
   }
 ]
