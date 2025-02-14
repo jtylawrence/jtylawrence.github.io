@@ -6,7 +6,8 @@ format:
 
 ## Coursework
 
-
 Here is a list of questions and proofs I used to prepare for the Algebra Qualifying Exam: <a href="C:\Users\jacob\Destop\Grad-School\Algebra_Qual_Questions\algebra_qual_questions.pdf"> here </a>
+
+TESTSTST
 
 Test <a href="../../Grad-School/Algebra_Qual_Questions\algebra_qual_questions.pdf"> here </a>
