@@ -4,6 +4,6 @@ about:
     template: broadside
 ---
 
-My name is Jacob Lawrence. I am a second year graduate student at the University of Missouri. My research interests primarily lie in Analysis and Partial Differential Equations, but currently, I am primarily focused on finishing my qualifying exams.
+I am a second year PhD student at the University of Missouri. Primarily, I am interested in Analysis and Partial Differential Equations, but currently, I am focused on passing my last qualifying exam.
 
 Before the University of Missouri, I attended the University of Alabama where I received a Bachelor of Science in Mathematics & Philosophy and a Masters of Arts in Mathematics.

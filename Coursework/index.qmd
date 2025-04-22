@@ -5,3 +5,11 @@ format:
 ---
 
 A list of courses I have taken (at the University of Missorui) can be found <a href="Files/Coursework/Coursework.pdf"> here </a>.
+
+## Lecture Notes
+
+Here I will post typed up lecture notes for some courses I have taken at the University of Missouri. 
+
+## Exercises
+
+Here I will post typed up solutions to various exercises to problems I have solved throughout my graduate career. 

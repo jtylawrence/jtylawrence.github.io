@@ -6,4 +6,4 @@ format:
 
 ## Projects
 
-For my master's degree, I wrote a paper on the Hardy-Littlewood maximal function under my advisor Dr. Kabe Moen. That paper can be found <a href="HardyLittlewoodMaximalFunction.pdf"> here </a>
+For my master's degree, I wrote a project on the Hardy-Littlewood maximal function under my advisor Dr. Kabe Moen. That paper can be found <a href="HardyLittlewoodMaximalFunction.pdf"> here</a>. 
