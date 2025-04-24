@@ -22,3 +22,9 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+p {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 10px;
+}
