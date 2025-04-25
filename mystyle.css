@@ -17,7 +17,7 @@ ul.topnav li a{
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {background-color: rgb(10, 9, 8);}
 
 ul.topnav li a.actve {background-color: white;}
 
@@ -78,4 +78,8 @@ a:active {
   color: blue;
   background-color: transparent;
   text-decoration: none;
+}
+
+body {
+  background-color: rgb(143, 164, 174);
 }
