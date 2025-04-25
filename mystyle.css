@@ -28,10 +28,6 @@ ul.topnav li.right {float: right;}
   ul.topnav li {float:none};
 }
 
-body {
-  font-family: Palatino Linotype, serif;
-}
-
 * {
   box-sizing: border-box;
 }
