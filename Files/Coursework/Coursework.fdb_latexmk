@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1745367376.31093 "c:/Users/jacob/Desktop/jtylawrence.github.io/Coursework/Files/Coursework/Coursework.tex" "Coursework.pdf" "Coursework" 1745367378.90562 0
+["pdflatex"] 1747408000.10328 "c:/Users/jacob/Desktop/jtylawrence.github.io/Files/Coursework/Coursework.tex" "Coursework.pdf" "Coursework" 1747408002.9929 0
   "C:/Users/jacob/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1744222835 180629 72a0ef0e360eaee60149de131db6d9d6 ""
   "C:/Users/jacob/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1685754234 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/jacob/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1685754237 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -107,6 +107,7 @@
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty" 1721463592 18740 7be0d0f80fe6a81e194d2120559723a5 ""
+  "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/footmisc/footmisc.sty" 1689583575 21399 e9fa1517a82f349507e998594ef20b82 ""
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -174,9 +175,9 @@
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1718356376 7532 d2e1111e17bfebb1607d8ffa779705ec ""
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "Coursework.aux" 1745367378 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "Coursework.tex" 1745367375 5065 926cb18c456497cbe2e53ced11543a86 ""
-  "c:/Users/jacob/Desktop/jtylawrence.github.io/Coursework/Files/Coursework/Coursework.tex" 1745367375 5065 926cb18c456497cbe2e53ced11543a86 ""
+  "Coursework.aux" 1747408002 109 1b4638c458e3533924da7a103a657316 "pdflatex"
+  "Coursework.tex" 1747407998 5346 a56a68ca21d36f8d8e42a6b36b20fdbf ""
+  "c:/Users/jacob/Desktop/jtylawrence.github.io/Files/Coursework/Coursework.tex" 1747407998 5346 a56a68ca21d36f8d8e42a6b36b20fdbf ""
   "preamble.tex" 1721911614 2599 2469a6e8b7f9eed7722e1a70f2f089ec ""
   (generated)
   "Coursework.aux"
