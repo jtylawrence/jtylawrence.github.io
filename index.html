@@ -7,37 +7,64 @@
 </head>
 <body>
 
-<div class="topnav" id="myTopnav">
-    <a href="/" class="active">Jacob Lawrence</a>
+<div class="sidenav">
+    <a href="#Jacob Lawrence">Home</a>
     <a href="../CV/">CV</a>
-    <a href="../Research">Research</a>
+    <a href="#Research">Research</a>
     <a href="../Teaching/">Teaching</a>
     <a href="../Coursework/">Coursework</a>
     <a href="../Current Projects/">Current Projects</a>
-    <a href="jacvascrip:void(0);" class="icon" onclick="myFunction()"></a>
 </div>
 
-<h2>About Me</h2>
-<p>I am a second year PhD student at the <a href="https://math.missouri.edu/">University of Missouri</a>. Before coming to Mizzou, I attended the University of Alabama where I received a BS in Mathematics & Philosophy and an MA in Mathematics.</p>
+<div class="main">
+    <h1>Jacob Lawrence</h1>
+    <p>
+        PhD Student <br>
+        Department of Mathematics <br>
+        University of Missouri
+    </p>
 
-<p>The intent of this website is a place for me to share what interests me mathematically (and sometimes other random interests). </p>
+    <p>
+        Office: MSB 36 <br>
+        Email: jlqbx@umsystem.edu
+    </p>
 
-<hr>
+    <p>For a pdf copy of my CV, click here. For a web version, click <a href="../CV/">here</a>. 
 
-<h2>Contact</h2>
+    <hr>
 
-<p><b>Email</b>: <a href="mailto:jlqbx@umsystem.edu">jlqbx@umsystem.edu</a></p>
-<p><b>Office</b>: MSB 36</p>
+    <h2>About</h2>
+
+    I am a second year PhD student at the University of Missouri. Before coming to UM, I completed a BS in Mathematics & Philosophy and an MA in Mathematics. Mathematically, I am broadly interested in Analysis, and more specifically, in Mathematical Physics.  
+
+    <hr>
+
+    <h2>Research</h2>
+
+    For my masters, I completed a project on the Hardy-Littlewood Maximal Function under my advisor Dr. Kabe Moen. That paper can be found <a href="../Files/HardyLittlewoodMaximalFunction.pdf">here</a>.
+
+    <hr>
+
+    <h2>Teaching</h2>
+
+    <p>In Summer 2025, I am a TA for MATH 1050: Quantitative Reasoning.</p>
+
+    <h3 style="display: inline-block; margin:0;">Past Courses</h3>
+    <button onclick="open()" style="justify-content: space-between;">Show</button>
+    <div id="Teaching">
+        This is a test of content.
+    </div>
+</div>
 
 <script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+    function open() {
+        var x = document.getElementByID("Teaching");
+        if (x.sytle.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
 </script>
 
 </body>
