@@ -28,45 +28,83 @@
         Office: MSB 36 <br>
         Email: jlqbx@umsystem.edu
     </p>
+</div>
 
-    <p>For a pdf copy of my CV, click here. For a web version, click <a href="../CV/">here</a>. 
-
+<div class="main">
     <hr>
 
     <h2>About</h2>
 
-    I am a second year PhD student at the University of Missouri. Before coming to UM, I completed a BS in Mathematics & Philosophy and an MA in Mathematics. Mathematically, I am broadly interested in Analysis, and more specifically, in Mathematical Physics.  
+    <p>I am a second year PhD student at the University of Missouri. Before coming to UM, I completed a BS in Mathematics & Philosophy and an MA in Mathematics. Mathematically, I am broadly interested in Analysis, and more specifically, in Mathematical Physics. </p>
 
+    <p>For a pdf copy of my CV, click here. For a web version, click <a href="../CV/">here</a>.</p> 
+
+</div>
+
+<div class="main">
     <hr>
 
     <h2>Research</h2>
 
-    For my masters, I completed a project on the Hardy-Littlewood Maximal Function under my advisor Dr. Kabe Moen. That paper can be found <a href="../Files/HardyLittlewoodMaximalFunction.pdf">here</a>.
+    <p>For my masters, I completed a project on the Hardy-Littlewood Maximal Function under my advisor Dr. Kabe Moen. That paper can be found <a href="../Files/HardyLittlewoodMaximalFunction.pdf">here</a>.</p>
 
+</div>
+
+<div class="main">
     <hr>
 
     <h2>Teaching</h2>
 
     <p>In Summer 2025, I am a TA for MATH 1050: Quantitative Reasoning.</p>
 
-    <h3 style="display: inline-block; margin:0;">Past Courses</h3>
-    <button id="myButton" onclick="myFunction()">Show</button>
-    <div id="myContent" class="hidden-content">
-        This is a test of content.
+    <h3 style="display: inline-block; margin: 0;">Past Courses</h3>
+    <button id="teachingButton" class="button">Show</button>
+    <div id="teachingContent" class="hidden-content">
+        <ul>
+            <li>MATH 1300 - Finite Mathematics, TA, Spring 2025</li>
+            <li>MATH 1300 - Finite Mathematics, TA, Fall 2024</li>
+            <li>MATH 1100 - College Algebra, TA, Spring 2024</li>
+            <li>MATH 1100 - College Algebra, TA, Fall 2023</li>
+        </ul>
     </div>
 </div>
 
-<script>
-const button = document.getElementById('myButton');
-const content = document.getElementById('myContent');
+<div class="main">
+    <hr>
+    <h2>Coursework</h2>
 
-button.addEventListener('click', function () {
-    if (content.style.display === 'none' || content.style.display === '') {
-        content.style.display = 'block';
-    } else {
-        content.style.display = 'none';
-    }
-});
+    <p>A list of courses that I have taken at the University of Missouri can be found <a href="files/Coursework/Coursework.pdf">here</a>. </p>
+
+    <h3 style="display: inline-block; margin: 0;">Lecture Notes</h3>
+    <button id="courseworkButton" class="button">Show</button>
+    <div id="courseworkContent" class="hidden-content">
+        <ul>
+            <li>MATH 8302.1 - Theory of Distributions, Fall 2025</li>
+        </ul>
+    </div>
+</div>
+
+
+<!--SCRIPTS-->
+
+<script>
+function toggleVisibility(buttonId, contentId) {
+    const button = document.getElementById(buttonId);
+    const content = document.getElementById(contentId);
+
+    button.addEventListener('click', function () {
+        if (content.style.display === 'none' || content.style.display === '') {
+            content.style.display = 'block';
+            this.innerHTML = 'Hide';
+        } else {
+            content.style.display = 'none';
+            this.innerHTML = 'Show';
+        }
+    });
+}
+
+toggleVisibility('teachingButton', 'teachingContent');
+toggleVisibility('courseworkButton', 'courseworkContent');
 
 document.getElementById("myButton").addEventListener("click", function() {
   if (this.innerHTML === "Show") {

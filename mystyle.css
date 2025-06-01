@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
+  .sidenav {width: 20%; padding-top: 15px;}
   .sidenav a {font-size:18px;}
 }
 
@@ -39,4 +39,12 @@
 
 .hidden-content {
   display: none;
+}
+
+ul li {
+  padding: 7px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
