@@ -32,12 +32,11 @@
 }
 
 .button {
-  background-color: white;
-  color: grey;
-  border: none
+  justify-content: space-between; 
+  border: none;
+  cursor: pointer;
 }
 
-#Teaching {
-  width: 100%;
-  padding: 50px 0;
+.hidden-content {
+  display: none;
 }
