@@ -1,129 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Jacob Lawrence's Webpage</title>
-<link rel="stylesheet" href="mystyle.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="mystyle.css">
+  <title>Jacob Lawrence's Webpage</title>
 </head>
 <body>
 
-<div class="sidenav">
+  <!-- Hamburger Menu Button -->
+
+  <!-- Sidebar -->
+  <div class="sidenav" id="sidebar">
     <a href="#Jacob Lawrence">Home</a>
     <a href="#Research">Research</a>
     <a href="#Teaching">Teaching</a>
     <a href="#Coursework">Coursework</a>
     <a href="#Current Projects">Current Projects</a>
-</div>
+  </div>
 
-<div class="main">
+  <button class="menu-toggle" id="menuToggle">&#9776;</button>
+
+  <!-- Main Content -->
+  <div class="main">
     <h1>Jacob Lawrence</h1>
     <p>
-        PhD Student <br>
-        <a href="https://math.missouri.edu">Department of Mathematics</a><br>
-        <a href="https://missouri.edu">University of Missouri</a>
+      PhD Student <br>
+      <a href="https://math.missouri.edu">Department of Mathematics</a><br>
+      <a href="https://missouri.edu">University of Missouri</a>
     </p>
 
-    <p>
-        Office: MSB 36 <br>
-        Email: jlqbx@umsystem.edu
-    </p>
+    <p>Office: MSB 36 <br>Email: jlqbx@umsystem.edu</p>
 
-    <p>
-        My office hours for Summer 2025 are MW 10:00-11:00am. 
-    </p>
-</div>
+    <p>My office hours for Summer 2025 are MW 10:00–11:00am.</p>
 
-<div class="main">
     <hr>
 
     <h2>About</h2>
+    <p>I am a second year PhD student at the University of Missouri. Before coming to UM, I completed a BS in Mathematics & Philosophy and an MA in Mathematics. Mathematically, I am broadly interested in Analysis, and more specifically, in Mathematical Physics.</p>
 
-    <p>I am a second year PhD student at the University of Missouri. Before coming to UM, I completed a BS in Mathematics & Philosophy and an MA in Mathematics. Mathematically, I am broadly interested in Analysis, and more specifically, in Mathematical Physics. </p>
+    <p>For a pdf copy of my CV, click here. For a web version, click <a href="../CV/">here</a>.</p>
 
-    <p>For a pdf copy of my CV, click here. For a web version, click <a href="../CV/">here</a>.</p> 
-
-</div>
-
-<div class="main">
     <hr>
 
     <h2>Research</h2>
-
     <p>For my masters, I completed a project on the Hardy-Littlewood Maximal Function under my advisor Dr. Kabe Moen. That paper can be found <a href="../Files/HardyLittlewoodMaximalFunction.pdf">here</a>.</p>
 
-</div>
-
-<div class="main">
     <hr>
 
     <h2>Teaching</h2>
-
     <p>In Summer 2025, I am a TA for MATH 1050: Quantitative Reasoning.</p>
 
     <h3 style="display: inline-block; margin: 0;">Past Courses</h3>
     <button id="teachingButton" class="button">Show</button>
     <div id="teachingContent" class="hidden-content">
-        <ul>
-            <li>MATH 1300 - Finite Mathematics, TA, Spring 2025</li>
-            <li>MATH 1300 - Finite Mathematics, TA, Fall 2024</li>
-            <li>MATH 1100 - College Algebra, TA, Spring 2024</li>
-            <li>MATH 1100 - College Algebra, TA, Fall 2023</li>
-        </ul>
+      <ul>
+        <li>MATH 1300 - Finite Mathematics, TA, Spring 2025</li>
+        <li>MATH 1300 - Finite Mathematics, TA, Fall 2024</li>
+        <li>MATH 1100 - College Algebra, TA, Spring 2024</li>
+        <li>MATH 1100 - College Algebra, TA, Fall 2023</li>
+      </ul>
     </div>
-</div>
 
-<div class="main">
     <hr>
-    <h2>Coursework</h2>
 
-    <p>A list of courses that I have taken at the University of Missouri can be found <a href="../files/Coursework/Coursework.pdf">here</a>. </p>
+    <h2>Coursework</h2>
+    <p>A list of courses that I have taken at the University of Missouri can be found <a href="../files/Coursework/Coursework.pdf">here</a>.</p>
 
     <h3 style="display: inline-block; margin: 0;">Lecture Notes</h3>
     <button id="courseworkButton" class="button">Show</button>
     <div id="courseworkContent" class="hidden-content">
-        <ul>
-            <li>MATH 8302.1 - Theory of Distributions, Fall 2025</li>
-        </ul>
+      <ul>
+        <li>MATH 8302.1 - Theory of Distributions, Fall 2025</li>
+      </ul>
     </div>
-</div>
 
-<div class="main">
     <hr>
 
     <h2>Current Projects</h2>
-    <p>I am working my way through <i>Methods of Modern Mathematical Physics: Functional Analysis</i> by M. Reed and B. Simon. </p>
-</div>
+    <p>I am working my way through <i>Methods of Modern Mathematical Physics: Functional Analysis</i> by M. Reed and B. Simon.</p>
+  </div>
 
+  <!-- JavaScript -->
+  <script>
+  const menuToggle = document.getElementById('menuToggle');
+  const sidebar = document.getElementById('sidebar');
 
-<!--SCRIPTS-->
-
-<script>
-function toggleVisibility(buttonId, contentId) {
-    const button = document.getElementById(buttonId);
-    const content = document.getElementById(contentId);
-
-    button.addEventListener('click', function () {
-        if (content.style.display === 'none' || content.style.display === '') {
-            content.style.display = 'block';
-            this.innerHTML = 'Hide';
-        } else {
-            content.style.display = 'none';
-            this.innerHTML = 'Show';
-        }
-    });
-}
-
-toggleVisibility('teachingButton', 'teachingContent');
-toggleVisibility('courseworkButton', 'courseworkContent');
-
-document.getElementById("myButton").addEventListener("click", function() {
-  if (this.innerHTML === "Show") {
-    this.innerHTML = "Hide";
-  } else {
-    this.innerHTML = "Show";
-  }
-});
+  menuToggle.addEventListener('click', () => {
+    sidebar.classList.toggle('open');
+  });
 </script>
 
+<script>
+
+    // Toggle section visibility
+    function toggleVisibility(buttonId, contentId) {
+      const button = document.getElementById(buttonId);
+      const content = document.getElementById(contentId);
+
+      button.addEventListener('click', function () {
+        if (content.style.display === 'none' || content.style.display === '') {
+          content.style.display = 'block';
+          this.innerHTML = 'Hide';
+        } else {
+          content.style.display = 'none';
+          this.innerHTML = 'Show';
+        }
+      });
+    }
+
+    toggleVisibility('teachingButton', 'teachingContent');
+    toggleVisibility('courseworkButton', 'courseworkContent');
+  </script>
 </body>
-</html> 
+</html>

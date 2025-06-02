@@ -1,50 +1,97 @@
-.sidenav{
-  height: 100%;
-  width: 175px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(24,48,69);
-  overflow-x: hidden;
-  padding-top: 20px;
+* {
+    box-sizing: border-box;
 }
 
-.sidenav a{
-  padding: 6px 6px 6px 32px;
-  text-decoration: none;
-  font-size: 20px;
-  color: rgb(87,114,143);
-  display: block;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-.sidenav a:hover{
+/* Hamburger Button */
+.menu-toggle {
+  display: none;
+  background-color: rgb(27,48,69);
   color: white;
-}
-
-.main {
-  margin-left: 175px
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {width: 20%; padding-top: 15px;}
-  .sidenav a {font-size:18px;}
-}
-
-.button {
-  justify-content: space-between; 
+  font-size: 24px;
+  padding: 10px 15px;
   border: none;
   cursor: pointer;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1001;
 }
 
+/* Sidebar */
+.sidenav {
+  height: 100vh;
+  width: 250px;
+  background-color: #333;
+  color: white;
+  padding-top: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+.sidenav a {
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.sidenav a:hover {
+  background-color: #575757;
+}
+
+/* Main content */
+.main {
+  margin-left: 250px;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+}
+
+/* Hidden sidebar on small screens */
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  #sidebar.open + #menuToggle {
+    left: 260px; /* slightly more than sidebar width */
+  }
+
+  .sidenav {
+    transform: translateX(-100%);
+    width: 250px;
+    position: fixed;
+    z-index: 1000;
+  }
+
+  .sidenav.open {
+    transform: translateX(0);
+  }
+
+  .main {
+    margin-left: 0;
+    padding-top: 60px; /* <-- Add this to prevent overlap */
+  }
+}
+
+/* Toggleable sections */
 .hidden-content {
   display: none;
 }
 
-ul li {
-  padding: 7px;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.button {
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
 }
