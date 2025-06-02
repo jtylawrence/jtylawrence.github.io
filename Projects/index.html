@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jacob Lawrence's Projects</title>
+<link rel="stylesheet" href="../mystyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1 style="padding-top: 25px;"">Current Projects</h1>
+
+<p>Currently, I am working my way through <i>Methods of Modern Mathematical Physics I: Functional Analysis</i> by M. Reed and B. Simon. I will try and regularly update this page with notes that I have taken and exercises I have completed.</p>
+<p><b>Lecture Notes</b>: <br>
+<b>Exercises</b>: </p>
+
+<h2 style="display:inline-block; margin: 0;">Past Projects</h2>
+<button id="projectButton" class="button">Show</button>
+    <div id="projectContent" class="hidden-content">
+      <ul>
+        <li>Nothing to be shown (for now).</li>
+      </ul>
+    </div>
+</body>
+
+<script>
+    function toggleVisibility(buttonId, contentId) {
+    const button = document.getElementById(buttonId);
+    const content = document.getElementById(contentId);
+
+    button.addEventListener('click', function () {
+    if (content.style.display === 'none' || content.style.display === '') {
+        content.style.display = 'block';
+        this.innerHTML = 'Hide';
+        } else {
+        content.style.display = 'none';
+        this.innerHTML = 'Show';
+        }
+      });
+    }
+
+    toggleVisibility('projectButton', 'projectContent');
+  </script>
+</html>
