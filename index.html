@@ -116,9 +116,7 @@
       closeSidebar();
     }
   });
-</script>
 
-<script>
   function updateHamburgerVisibility() {
   if (window.innerWidth >= 769) {
     // On large screens: sidebar is always open, hide hamburger
@@ -133,6 +131,17 @@
     }
   }
 }
+
+const menuLinks = sidebar.querySelectorAll('a');
+
+  menuLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    // Close sidebar on small screens when a link is clicked
+    if (window.innerWidth < 769) {
+      closeSidebar();
+    }
+  });
+});
 
 // Run once on page load
 updateHamburgerVisibility();
