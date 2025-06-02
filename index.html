@@ -12,18 +12,22 @@
 
   <!-- Sidebar -->
   <div class="sidenav" id="sidebar">
-    <a href="#Jacob Lawrence">Home</a>
+    <button class="menu-toggle" id="menuToggle">&#10005;</button>
+    <a href="#Home">Home</a>
+    <a href="#About">About</a>
     <a href="#Research">Research</a>
     <a href="#Teaching">Teaching</a>
     <a href="#Coursework">Coursework</a>
-    <a href="#Current Projects">Current Projects</a>
+    <a href="#CurrentProjects">Current Projects</a>
   </div>
 
-  <button class="menu-toggle" id="menuToggle">&#9776;</button>
+  <div id="overlay"></div>
+
+  <button class="hamburger-outside" id="hamburgerOutside">&#9776;</button>
 
   <!-- Main Content -->
   <div class="main">
-    <h1>Jacob Lawrence</h1>
+    <h1 id="Home">Jacob Lawrence</h1>
     <p>
       PhD Student <br>
       <a href="https://math.missouri.edu">Department of Mathematics</a><br>
@@ -36,19 +40,19 @@
 
     <hr>
 
-    <h2>About</h2>
+    <h2 id="About">About</h2>
     <p>I am a second year PhD student at the University of Missouri. Before coming to UM, I completed a BS in Mathematics & Philosophy and an MA in Mathematics. Mathematically, I am broadly interested in Analysis, and more specifically, in Mathematical Physics.</p>
 
     <p>For a pdf copy of my CV, click here. For a web version, click <a href="../CV/">here</a>.</p>
 
     <hr>
 
-    <h2>Research</h2>
+    <h2 id="Research">Research</h2>
     <p>For my masters, I completed a project on the Hardy-Littlewood Maximal Function under my advisor Dr. Kabe Moen. That paper can be found <a href="../Files/HardyLittlewoodMaximalFunction.pdf">here</a>.</p>
 
     <hr>
 
-    <h2>Teaching</h2>
+    <h2 id="Teaching">Teaching</h2>
     <p>In Summer 2025, I am a TA for MATH 1050: Quantitative Reasoning.</p>
 
     <h3 style="display: inline-block; margin: 0;">Past Courses</h3>
@@ -64,7 +68,7 @@
 
     <hr>
 
-    <h2>Coursework</h2>
+    <h2 id="Coursework">Coursework</h2>
     <p>A list of courses that I have taken at the University of Missouri can be found <a href="../files/Coursework/Coursework.pdf">here</a>.</p>
 
     <h3 style="display: inline-block; margin: 0;">Lecture Notes</h3>
@@ -77,18 +81,64 @@
 
     <hr>
 
-    <h2>Current Projects</h2>
+    <h2 id="CurrentProjects">Current Projects</h2>
     <p>I am working my way through <i>Methods of Modern Mathematical Physics: Functional Analysis</i> by M. Reed and B. Simon.</p>
   </div>
 
   <!-- JavaScript -->
   <script>
-  const menuToggle = document.getElementById('menuToggle');
   const sidebar = document.getElementById('sidebar');
+  const closeBtn = document.getElementById('menuToggle');
+  const openBtn = document.getElementById('hamburgerOutside');
+  const overlay = document.getElementById('overlay');
 
-  menuToggle.addEventListener('click', () => {
-    sidebar.classList.toggle('open');
+  function openSidebar() {
+    sidebar.classList.add('open');
+    overlay.style.display = 'block';
+    openBtn.style.display = 'none';
+    document.body.style.overflow = 'hidden'; // prevent scrolling
+  }
+
+  function closeSidebar() {
+    sidebar.classList.remove('open');
+    overlay.style.display = 'none';
+    openBtn.style.display = 'block';
+    document.body.style.overflow = ''; // restore scrolling
+  }
+
+  openBtn.addEventListener('click', openSidebar);
+  closeBtn.addEventListener('click', closeSidebar);
+  overlay.addEventListener('click', closeSidebar);
+
+  // Optional: close sidebar if window resized to desktop size
+  window.addEventListener('resize', () => {
+    if(window.innerWidth >= 769){
+      closeSidebar();
+    }
   });
+</script>
+
+<script>
+  function updateHamburgerVisibility() {
+  if (window.innerWidth >= 769) {
+    // On large screens: sidebar is always open, hide hamburger
+    openBtn.style.display = 'none';
+    overlay.style.display = 'none';
+    sidebar.classList.remove('open');
+    document.body.style.overflow = ''; // enable scrolling
+  } else {
+    // On small screens: show hamburger if sidebar closed
+    if (!sidebar.classList.contains('open')) {
+      openBtn.style.display = 'block';
+    }
+  }
+}
+
+// Run once on page load
+updateHamburgerVisibility();
+
+// Run on resize
+window.addEventListener('resize', updateHamburgerVisibility);
 </script>
 
 <script>
