@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.25)  16 MAY 2025 10:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.25)  17 JUN 2025 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/jacob/Desktop/jtylawrence.github.io/Files/Coursework/Coursework.tex
-(c:/Users/jacob/Desktop/jtylawrence.github.io/Files/Coursework/Coursework.tex
+**c:/Users/jacob/Desktop/jtylawrence.github.io/Coursework/Files/Coursework.tex
+(c:/Users/jacob/Desktop/jtylawrence.github.io/Coursework/Files/Coursework.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -675,6 +675,16 @@ LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 4
  (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
+Overfull \hbox (9.02548pt too wide) in paragraph at lines 43--46
+\OT1/ppl/m/n/10 An in-tro-duc-tion to the ba-sic ideas of har-monic anal-y-sis in $\U/fplmbb/m/n/10 R[]$\OT1/ppl/m/n/10 : Hardy-Littlewood Max-i-mal Func-tion, Lebesgue
+ []
+
+
+Overfull \hbox (19.97884pt too wide) in paragraph at lines 43--46
+\OT1/ppl/m/n/10 the-o-rem, Frac-tional In-te-gra-tion and Soblev spaces, Sin-gu-lar in-te-gral The-ory and Fourier mul-ti-pli-ers, Littlewood-
+ []
+
+
 
 [1
 
@@ -687,15 +697,15 @@ L3 programming layer <2024-05-27>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 23001 strings out of 473904
- 490782 string characters out of 5726600
+ 23000 strings out of 473904
+ 490769 string characters out of 5726600
  1936908 words of memory out of 5000000
- 45443 multiletter control sequences out of 15000+600000
+ 45442 multiletter control sequences out of 15000+600000
  579440 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,8n,110p,1261b,293s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,8n,110p,1261b,282s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmbb.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Coursework.pdf (2 pages, 75270 bytes).
+Output written on Coursework.pdf (2 pages, 75430 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
