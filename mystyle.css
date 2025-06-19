@@ -24,6 +24,10 @@ b {
   color: rgb(36,64,92)
 }
 
+ul {
+  list-style-type: square;
+}
+
 /* Links */
 a:link {
   color: rgb(87,114,143);
