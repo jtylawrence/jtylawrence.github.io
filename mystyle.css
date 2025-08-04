@@ -200,14 +200,3 @@ footer {
     footer a:hover {
       text-decoration: underline;
     }
-
-/* Table */
-table, th, td {
-    border: 1px solid;
-} 
-th {
-    text-align: left;
-}
-table {
-    margin: 10px
-}
