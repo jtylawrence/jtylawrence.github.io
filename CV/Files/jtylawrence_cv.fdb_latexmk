@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1755301609.63828 "jtylawrence_cv.tex" "jtylawrence_cv.pdf" "jtylawrence_cv" 1755301609.95647 0
+["pdflatex"] 1755440578.20221 "jtylawrence_cv.tex" "jtylawrence_cv.pdf" "jtylawrence_cv" 1755440578.56966 0
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -59,9 +59,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1750979173 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "jtylawrence_cv.aux" 1755301609.93414 538 6c1b171037d9f5a6f7a4172aecc5ac1c "pdflatex"
-  "jtylawrence_cv.out" 1755301609.93444 264 adbbd54012e6b9806349b0ad9d406592 "pdflatex"
-  "jtylawrence_cv.tex" 1755301609.18767 3822 da112ba5c43df3692597b473da98af6d ""
+  "jtylawrence_cv.aux" 1755440578.53934 538 6c1b171037d9f5a6f7a4172aecc5ac1c "pdflatex"
+  "jtylawrence_cv.out" 1755440578.53965 264 adbbd54012e6b9806349b0ad9d406592 "pdflatex"
+  "jtylawrence_cv.tex" 1755440576.5888 4476 0e9d9c38643820a4f94a6e17d682647b ""
   (generated)
   "jtylawrence_cv.aux"
   "jtylawrence_cv.log"
