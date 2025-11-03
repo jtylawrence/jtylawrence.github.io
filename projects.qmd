@@ -4,10 +4,10 @@ title: "Projects"
 
 > These projects are any mathematical related things I have done that are not directly related to coursework. Any past, current, or upcoming projects can be found here. 
 
-## Current
+### Current
 
 I am currently reading through chapters 2 and 3 of [*Mathematical Theory of Scattering Resonances*](https://bookstore.ams.org/gsm-200/) by S. Dyatlov and M. Zworksi. Any notes and/or exercise I write will be found here. 
 
-## Past
+### Past
 
 In Summer 2025, I (partially) worked through *Methods of Modern Mathematical Physics I: Functional Analysis* by M. Reed and B. Simon. Some notes I have taken can be found here, and exercise I have completed can be found here. 

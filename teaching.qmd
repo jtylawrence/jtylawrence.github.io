@@ -4,13 +4,13 @@ title: "Teaching"
 
 > My teaching evaluations are available upon [request](https://drive.google.com/drive/folders/1iVO5PcrIRovqNDR-jyWbLxVxPmdEMMrd?usp=sharing). 
 
-## Current Teaching
+### Current Teaching
 
 I am currenlty teaching two sections of MATH 1300: Finite Mathematics. 
 
-## Past Teaching
+### Past Teaching
 
-### University of Missouri
+#### University of Missouri
 
 Unless otherwise mentioned, I was the primary instructor on record for two sections, each with around 30 students. 
 
@@ -18,6 +18,6 @@ Unless otherwise mentioned, I was the primary instructor on record for two secti
 + MATH 1300: Finite Mathematics - Fall 2024, Spring 2025
 + MATH 1100: College Algebra - Fall 2023, Spring 2024
 
-### University of Alabama
+#### University of Alabama
 
 + PHL 105/195: (Honors) Introduction to Deductive Logic - Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021
