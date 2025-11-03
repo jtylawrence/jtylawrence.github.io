@@ -1,6 +1,9 @@
 ---
 title: "Jacob Lawrence"
-theme: solana
+subtitle: "Phd Student at University of Missouri"
+about:
+    image: files/jellyfish.jpeg
+    template: solana
 ---
 
 I am a third year PhD student at the University of Missouri, advised by Tanya Christiansen. Broadly speaking, my research interests are in Partial Differential Equations, especially Spectral and Scattering Theory. 
@@ -9,8 +12,7 @@ Before coming to UM, I completed a BS in Mathematics & Philosophy and an MA in M
 
 My CV can be found [here](files/cv/jtylawrence_cv.pdf).
 
-#### Contact
-
-Office: 20 MSB <br>
-Email (UM): jlqbx@missouri.edu <br>
-Email (personal): jtylawrence@outlook.com
+> #### Contact
+> Office: 20 MSB <br>
+> Email (UM): jlqbx@missouri.edu <br>
+> Email (personal): jtylawrence@outlook.com
