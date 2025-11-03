@@ -8,11 +8,11 @@ Scattering theory is the study of perturbations on wave propagation. While highl
 
 ### Master's Work
 
-While doing my master's degree, I completed a project on the sharp constants in the weak $(1,1)$ and strong $(p,p)$ inequalities for the Hardy-Littlewood Maximal Function. A copy of that paper can be found here. This was advised by Kabe Moen. 
+While doing my master's degree, I completed a project on the sharp constants in the weak $(1,1)$ and strong $(p,p)$ inequalities for the Hardy-Littlewood Maximal Function. A copy of that paper can be found [here](files/research/HardyLittlewoodMaximalFunction.pdf). This was advised by Kabe Moen. 
 
 ### Talks Given
 
-+ Graduate Student Seminar, University of Missouri, *Best Constants for the Hardy-Littlewood Maximal Theorem*, Fall 2024
++ Graduate Student Seminar, University of Missouri, *Best Constants for the Hardy-Littlewood Maximal Theorem*, Fall 2024 [[slides](files/research/HardyLittlewood_slides.pdf)]
 
 ### Conferences Attended
 
