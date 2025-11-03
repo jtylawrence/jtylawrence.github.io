@@ -7,10 +7,14 @@ website:
   favicon: infinity.svg
   navbar:
     tools:
+      - icon: github
+        href: https://github.com/jtylawrence
       - icon: envelope
         href: mailto:jlqbx@missouri.edu
     search: false
     left:
+      - text: Home
+        href: index.qmd
       - research.qmd
       - teaching.qmd
       - coursework.qmd

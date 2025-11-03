@@ -1,6 +1,6 @@
 ---
 title: "Jacob Lawrence"
-subtitle: "Phd Student"
+subtitle: "PhD Student"
 about:
     template: solana
     image: files/jellyfish.jpeg
@@ -13,6 +13,6 @@ Before coming to UM, I completed a BS in Mathematics & Philosophy and an MA in M
 My CV can be found [here](files/cv/jtylawrence_cv.pdf).
 
 > #### Contact
-> Office: 20 MATH Sciences Building <br>
+> Office: 20 Mathematical Sciences Building <br>
 > Email (UM): [jlqbx@missouri.edu](mailto:jlqbx@missouri.edu) <br>
 > Email (personal): [jtylawrence@outlook.com](mailto:jtylawrence@outlook.com)

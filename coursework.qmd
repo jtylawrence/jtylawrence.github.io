@@ -2,7 +2,7 @@
 title: "Coursework"
 ---
 
-A list of courses I have taken at the University of Missouri can be found [here](files/coursework/Coursework.pdf). 
+> A list of courses I have taken at the University of Missouri can be found [here](files/coursework/Coursework.pdf). 
 
 ## Lecture Notes
 
