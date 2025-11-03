@@ -1,9 +1,9 @@
 ---
 title: "Jacob Lawrence"
-subtitle: "Phd Student at University of Missouri"
+subtitle: "Phd Student"
 about:
+    template: trestles
     image: files/jellyfish.jpeg
-    template: solana
 ---
 
 I am a third year PhD student at the University of Missouri, advised by Tanya Christiansen. Broadly speaking, my research interests are in Partial Differential Equations, especially Spectral and Scattering Theory. 

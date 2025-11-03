@@ -220,7 +220,8 @@ ul.task-list li input[type="checkbox"] {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -233,6 +234,14 @@ ul.task-list li input[type="checkbox"] {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -288,18 +297,20 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-body">
+<div class="quarto-about-trestles">
   <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+    <img src="files/jellyfish.jpeg" class="about-image
+  rounded " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Jacob Lawrence</h1>
-<p class="subtitle lead">Phd Student at University of Missouri</p>
+<p class="subtitle lead">Phd Student</p>
 </div>
 <div class="quarto-title-meta">
   </div>
-</header> 
-      <div class="about-contents"><main class="content" id="quarto-document-content">
+</header>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
 
 <p>I am a third year PhD student at the University of Missouri, advised by Tanya Christiansen. Broadly speaking, my research interests are in Partial Differential Equations, especially Spectral and Scattering Theory.</p>
 <p>Before coming to UM, I completed a BS in Mathematics &amp; Philosophy and an MA in Mathematics from the University of Alabama.</p>
@@ -311,10 +322,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main></div>
-    </div>
-    <img src="files/jellyfish.jpeg" class="about-image
-  rounded " style="width: 15em;">
-  </div>
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

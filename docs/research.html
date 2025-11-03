@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./envelope" rel="icon">
+<link href="./infinity.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -250,7 +250,8 @@ window.Quarto = {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -263,6 +264,14 @@ window.Quarto = {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -352,18 +361,18 @@ window.Quarto = {
 
 <p><strong>Interests</strong>: Analysis; Partial Differential Equations; Scattering Theory</p>
 <p>Scattering theory is the study of perturbations on wave propagation. While highly applicable to physics (especially quantum mechanics), I am particularly motivated by the mathematics and not the underlying physical motivation.</p>
-<section id="masters-work" class="level3">
-<h3 class="anchored" data-anchor-id="masters-work">Master’s Work</h3>
+<section id="masters-work" class="level2">
+<h2 class="anchored" data-anchor-id="masters-work">Master’s Work</h2>
 <p>While doing my master’s degree, I completed a project on the sharp constants in the weak <span class="math inline">\((1,1)\)</span> and strong <span class="math inline">\((p,p)\)</span> inequalities for the Hardy-Littlewood Maximal Function. A copy of that paper can be found <a href="files/research/HardyLittlewoodMaximalFunction.pdf">here</a>. This was advised by Kabe Moen.</p>
 </section>
-<section id="talks-given" class="level3">
-<h3 class="anchored" data-anchor-id="talks-given">Talks Given</h3>
+<section id="talks-given" class="level2">
+<h2 class="anchored" data-anchor-id="talks-given">Talks Given</h2>
 <ul>
 <li>Graduate Student Seminar, University of Missouri, <em>Best Constants for the Hardy-Littlewood Maximal Theorem</em>, Fall 2024 [<a href="files/research/HardyLittlewood_slides.pdf">slides</a>]</li>
 </ul>
 </section>
-<section id="conferences-attended" class="level3">
-<h3 class="anchored" data-anchor-id="conferences-attended">Conferences Attended</h3>
+<section id="conferences-attended" class="level2">
+<h2 class="anchored" data-anchor-id="conferences-attended">Conferences Attended</h2>
 <ul>
 <li>AMS Fall Central Sectional Meeting, St.&nbsp;Louis, MO, Fall 2025</li>
 </ul>

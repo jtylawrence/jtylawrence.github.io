@@ -221,7 +221,8 @@ ul.task-list li input[type="checkbox"] {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -234,6 +235,14 @@ ul.task-list li input[type="checkbox"] {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -292,8 +301,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#current-project" id="toc-current-project" class="nav-link active" data-scroll-target="#current-project">Current Project</a></li>
-  <li><a href="#past-projects" id="toc-past-projects" class="nav-link" data-scroll-target="#past-projects">Past Projects</a></li>
+  <li><a href="#current" id="toc-current" class="nav-link active" data-scroll-target="#current">Current</a></li>
+  <li><a href="#past" id="toc-past" class="nav-link" data-scroll-target="#past">Past</a></li>
   </ul>
 </nav>
     </div>
@@ -320,12 +329,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="current-project" class="level3">
-<h3 class="anchored" data-anchor-id="current-project">Current Project</h3>
+<section id="current" class="level2">
+<h2 class="anchored" data-anchor-id="current">Current</h2>
 <p>I am currently reading through chapters 2 and 3 of <em>Mathematical Theory of Scattering Resonances</em> by S. Dyatlov and M. Zworksi. Any notes and/or exercise I write will be found here.</p>
 </section>
-<section id="past-projects" class="level3">
-<h3 class="anchored" data-anchor-id="past-projects">Past Projects</h3>
+<section id="past" class="level2">
+<h2 class="anchored" data-anchor-id="past">Past</h2>
 <p>In Summer 2025, I (partially) worked through <em>Methods of Modern Mathematical Physics I: Functional Analysis</em> by M. Reed and B. Simon. Some notes I have taken can be found here, and exercise I have completed can be found here.</p>
 
 

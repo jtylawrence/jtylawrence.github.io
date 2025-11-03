@@ -6,14 +6,14 @@ title: "Research"
 
 Scattering theory is the study of perturbations on wave propagation. While highly applicable to physics (especially quantum mechanics), I am particularly motivated by the mathematics and not the underlying physical motivation. 
 
-### Master's Work
+## Master's Work
 
 While doing my master's degree, I completed a project on the sharp constants in the weak $(1,1)$ and strong $(p,p)$ inequalities for the Hardy-Littlewood Maximal Function. A copy of that paper can be found [here](files/research/HardyLittlewoodMaximalFunction.pdf). This was advised by Kabe Moen. 
 
-### Talks Given
+## Talks Given
 
 + Graduate Student Seminar, University of Missouri, *Best Constants for the Hardy-Littlewood Maximal Theorem*, Fall 2024 [[slides](files/research/HardyLittlewood_slides.pdf)]
 
-### Conferences Attended
+## Conferences Attended
 
 + AMS Fall Central Sectional Meeting, St. Louis, MO, Fall 2025

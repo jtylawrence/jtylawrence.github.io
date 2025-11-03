@@ -221,7 +221,8 @@ ul.task-list li input[type="checkbox"] {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -234,6 +235,14 @@ ul.task-list li input[type="checkbox"] {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -292,7 +301,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#past-courses" id="toc-past-courses" class="nav-link active" data-scroll-target="#past-courses">Past Courses</a></li>
+  <li><a href="#past-courses" id="toc-past-courses" class="nav-link active" data-scroll-target="#past-courses">Past Courses</a>
+  <ul class="collapse">
+  <li><a href="#university-of-missouri" id="toc-university-of-missouri" class="nav-link" data-scroll-target="#university-of-missouri">University of Missouri</a></li>
+  <li><a href="#university-of-alabama" id="toc-university-of-alabama" class="nav-link" data-scroll-target="#university-of-alabama">University of Alabama</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -320,18 +333,25 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>I am currently teaching two sections of MATH 1300: Finite Mathematics.</p>
-<section id="past-courses" class="level3">
-<h3 class="anchored" data-anchor-id="past-courses">Past Courses</h3>
+<section id="past-courses" class="level2">
+<h2 class="anchored" data-anchor-id="past-courses">Past Courses</h2>
+<section id="university-of-missouri" class="level3">
+<h3 class="anchored" data-anchor-id="university-of-missouri">University of Missouri</h3>
 <p>Unless otherwise mentioned, I was the primary instructor on record for two sections, each with around 30 students.</p>
 <ul>
-<li>MATH 1050: Quantitative Reasoning, Summer 2025 (TA)</li>
-<li>MATH 1300: Finite Mathematics, Spring 2025</li>
-<li>MATH 1300: Finite Mathematics, Fall 2024</li>
-<li>MATH 1100: College Algebra, Spring 2024</li>
-<li>MATH 1100: College Algebra, Fall 2023</li>
+<li>MATH 1050: Quantitative Reasoning - Summer 2025 (TA)</li>
+<li>MATH 1300: Finite Mathematics - Fall 2024, Spring 2025</li>
+<li>MATH 1100: College Algebra - Fall 2023, Spring 2024</li>
+</ul>
+</section>
+<section id="university-of-alabama" class="level3">
+<h3 class="anchored" data-anchor-id="university-of-alabama">University of Alabama</h3>
+<ul>
+<li>PHL 105/195: (Honors) Introduction to Deductive Logic - Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021</li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -2,10 +2,10 @@
 title: "Projects"
 ---
 
-### Current Project
+## Current
 
 I am currently reading through chapters 2 and 3 of *Mathematical Theory of Scattering Resonances* by S. Dyatlov and M. Zworksi. Any notes and/or exercise I write will be found here. 
 
-### Past Projects
+## Past
 
 In Summer 2025, I (partially) worked through *Methods of Modern Mathematical Physics I: Functional Analysis* by M. Reed and B. Simon. Some notes I have taken can be found here, and exercise I have completed can be found here. 
