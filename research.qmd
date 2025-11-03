@@ -4,7 +4,7 @@ title: "Research"
 
 **Interests**: Analysis; Partial Differential Equations; Scattering Theory
 
-Scattering theory is the study of perturbations on wave propagation. While highly applicable to physics (especially quantum mechanics), I am particularly interested in the underlying mathematics. 
+Scattering Theory is the study of perturbations on wave propagation.
 
 ### Master's Work
 

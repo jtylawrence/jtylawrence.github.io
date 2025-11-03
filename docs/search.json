@@ -4,14 +4,14 @@
     "href": "coursework.html",
     "title": "Coursework",
     "section": "",
-    "text": "A list of courses I have taken at the University of Missouri can be found here."
+    "text": "A list of courses I have taken at the University of Missouri can be found here.\n\n\nLecture Notes\nI am currently typesetting some of my previous coursework’s lecture notes. Once those are finished, they can be found here.\n\nMATH 7920 - Advanced Linear Algebra\nMATH 8420 - Analysis I\nMATH 8421 - Analysis II\nMATH 8425 - Complex Analysis\nMATH 8302.1 - Theory of Distributions\nMATH 8445 - Partial Differential Equations I"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "These projects are any mathematical related things I have done that are not directly related to coursework. Any past, current, or upcoming projects can be found here."
+    "text": "These projects are any mathematical related things I have done that are not directly related to coursework. Any past, current, or upcoming projects can be found here.\n\n\nCurrent\nI am currently reading through chapters 2 and 3 of Mathematical Theory of Scattering Resonances by S. Dyatlov and M. Zworksi. Any notes and/or exercise I write will be found here.\n\n\nPast\nIn Summer 2025, I (partially) worked through Methods of Modern Mathematical Physics I: Functional Analysis by M. Reed and B. Simon. Some notes I have taken can be found here, and exercise I have completed can be found here."
   },
   {
     "objectID": "teaching.html",
@@ -25,7 +25,7 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Interests: Analysis; Partial Differential Equations; Scattering Theory\nScattering theory is the study of perturbations on wave propagation. While highly applicable to physics (especially quantum mechanics), I am particularly interested in the underlying mathematics."
+    "text": "Interests: Analysis; Partial Differential Equations; Scattering Theory\nScattering Theory is the study of perturbations on wave propagation.\n\nMaster’s Work\nWhile doing my master’s degree, I completed a project on the sharp constants in the weak \\((1,1)\\) and strong \\((p,p)\\) inequalities for the Hardy-Littlewood Maximal Function. A copy of that paper can be found here. This project was advised by Kabe Moen.\n\n\nTalks Given\n\nGraduate Student Seminar, University of Missouri, Best Constants for the Hardy-Littlewood Maximal Theorem, Fall 2024 [slides]\n\n\n\nConferences Attended\n\nAMS Fall Central Sectional Meeting, St. Louis, MO, Fall 2025"
   },
   {
     "objectID": "index.html",
