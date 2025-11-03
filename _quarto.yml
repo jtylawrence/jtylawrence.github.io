@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Jacob Lawrence"
-  favicon: bug
+  favicon: envelope
   navbar:
     tools:
       - icon: envelope
