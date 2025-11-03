@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Jacob Lawrence"
-  favicon: envelope
+  favicon: infinity.svg
   navbar:
     tools:
       - icon: envelope
@@ -19,8 +19,8 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: [cosmo]
+      dark: [cosmo, theme-dark.scss]
     css: styles.css
     toc: true
 
