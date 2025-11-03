@@ -4,7 +4,7 @@
     "href": "coursework.html",
     "title": "Coursework",
     "section": "",
-    "text": "A list of courses I have taken at the University of Missouri can be found here.\n\nLecture Notes\nI am currently typesetting some of my previous coursework’s lecture notes. Once those are finished, they can be found here.\n\nMATH 7920 - Advanced Linear Algebra\nMATH 8420 - Analysis I\nMATH 8421 - Analysis II\nMATH 8425 - Complex Analysis\nMATH 8302.1 - Theory of Distributions\nMATH 8445 - Partial Differential Equations I"
+    "text": "A list of courses I have taken at the University of Missouri can be found here."
   },
   {
     "objectID": "projects.html",
@@ -18,21 +18,21 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "I am currently teaching two sections of MATH 1300: Finite Mathematics."
+    "text": "My teaching evaluations are available upon request."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Interests: Analysis; Partial Differential Equations; Scattering Theory\nScattering theory is the study of perturbations on wave propagation. While highly applicable to physics (especially quantum mechanics), I am particularly motivated by the mathematics and not the underlying physical motivation."
+    "text": "Interests: Analysis; Partial Differential Equations; Scattering Theory\nScattering theory is the study of perturbations on wave propagation. While highly applicable to physics (especially quantum mechanics), I am particularly interested in the underlying mathematics."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jacob Lawrence",
     "section": "",
-    "text": "I am a third year PhD student at the University of Missouri, advised by Tanya Christiansen. Broadly speaking, my research interests are in Partial Differential Equations, especially Spectral and Scattering Theory.\nBefore coming to UM, I completed a BS in Mathematics & Philosophy and an MA in Mathematics from the University of Alabama.\nMy CV can be found here.\n\nContact\nOffice: 20 MSB  Email (UM): jlqbx@missouri.edu  Email (personal): jtylawrence@outlook.com"
+    "text": "I am a third year PhD student at the University of Missouri, advised by Tanya Christiansen. Broadly speaking, my research interests are in Partial Differential Equations, especially Spectral and Scattering Theory.\nBefore coming to UM, I completed a BS in Mathematics & Philosophy and an MA in Mathematics from the University of Alabama.\nMy CV can be found here.\n\nContact\nOffice: 20 MATH Sciences Building  Email (UM): jlqbx@missouri.edu  Email (personal): jtylawrence@outlook.com"
   },
   {
     "objectID": "teaching.html#past-courses",
@@ -75,5 +75,26 @@
     "title": "Projects",
     "section": "Past",
     "text": "Past\nIn Summer 2025, I (partially) worked through Methods of Modern Mathematical Physics I: Functional Analysis by M. Reed and B. Simon. Some notes I have taken can be found here, and exercise I have completed can be found here."
+  },
+  {
+    "objectID": "coursework.html#lecture-notes",
+    "href": "coursework.html#lecture-notes",
+    "title": "Coursework",
+    "section": "Lecture Notes",
+    "text": "Lecture Notes\nI am currently typesetting some of my previous coursework’s lecture notes. Once those are finished, they can be found here.\n\nMATH 7920 - Advanced Linear Algebra\nMATH 8420 - Analysis I\nMATH 8421 - Analysis II\nMATH 8425 - Complex Analysis\nMATH 8302.1 - Theory of Distributions\nMATH 8445 - Partial Differential Equations I"
+  },
+  {
+    "objectID": "teaching.html#current-teaching",
+    "href": "teaching.html#current-teaching",
+    "title": "Teaching",
+    "section": "Current Teaching",
+    "text": "Current Teaching\nI am currenlty teaching two sections of MATH 1300: Finite Mathematics."
+  },
+  {
+    "objectID": "teaching.html#past-teaching",
+    "href": "teaching.html#past-teaching",
+    "title": "Teaching",
+    "section": "Past Teaching",
+    "text": "Past Teaching\n\nUniversity of Missouri\nUnless otherwise mentioned, I was the primary instructor on record for two sections, each with around 30 students.\n\nMATH 1050: Quantitative Reasoning - Summer 2025 (TA)\nMATH 1300: Finite Mathematics - Fall 2024, Spring 2025\nMATH 1100: College Algebra - Fall 2023, Spring 2024\n\n\n\nUniversity of Alabama\n\nPHL 105/195: (Honors) Introduction to Deductive Logic - Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021"
   }
 ]
