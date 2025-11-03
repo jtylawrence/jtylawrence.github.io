@@ -4,7 +4,11 @@ project:
 
 website:
   title: "Jacob Lawrence"
+  favicon: bug
   navbar:
+    tools:
+      - icon: envelope
+        href: mailto:jlqbx@missouri.edu
     search: false
     left:
       - research.qmd
