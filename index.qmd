@@ -1,0 +1,14 @@
+---
+title: "Jacob Lawrence"
+theme: solana
+---
+
+I am a third year PhD student at the University of Missouri, advised by Tanya Christiansen. Broadly speaking, my research interests are in Partial Differential Equations, especially Spectral and Scattering Theory. 
+
+Before coming to UM, I completed a BS in Mathematics & Philosophy and an MA in Mathematics from the University of Alabama. 
+
+#### Contact
+
+Office: 20 MSB <br>
+Email (UM): jlqbx@missouri.edu <br>
+Email (personal): jtylawrence@outlook.com
