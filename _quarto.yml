@@ -5,6 +5,7 @@ project:
 website:
   title: "Jacob Lawrence"
   favicon: infinity.svg
+  bread-crumbs: true
   navbar:
     tools:
       - icon: github

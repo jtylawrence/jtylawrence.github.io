@@ -6,7 +6,7 @@ title: "Teaching"
 
 ### Current Teaching
 
-I am currenlty teaching two sections of MATH 1300: Finite Mathematics. 
+I am currenlty teaching two sections (each with around 30 students) of MATH 1300: Finite Mathematics. 
 
 ### Past Teaching
 
@@ -19,5 +19,7 @@ Unless otherwise mentioned, I was the primary instructor on record for two secti
 + MATH 1100: College Algebra - Fall 2023, Spring 2024
 
 #### University of Alabama
+
+For each of the given semesters below, I was among one of four TAs for around 50 total students in both courses. 
 
 + PHL 105/195: (Honors) Introduction to Deductive Logic - Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021
