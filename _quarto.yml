@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Jacob Lawrence"
-  favicon: infinity.svg
+  favicon: files/infinity.svg
   bread-crumbs: true
   navbar:
     tools:
@@ -26,7 +26,7 @@ format:
     respect-user-color-scheme: true
     theme:
       light: [cosmo]
-      dark: [cosmo, theme-dark.scss]
+      dark: [cosmo, files/theme-dark.scss]
     css: styles.css
     toc: true
 

@@ -4,15 +4,17 @@ subtitle: "PhD Student"
 about:
     template: solana
     image: files/jellyfish.jpeg
+    links:
+    - icon: envelope
+      text: jlqbx@missouri.edu
+      href: mailto:jlqbx@missouri.edu
+    - icon: building
+      text: 20 Mathematical Science Building
+      href: https://maps.app.goo.gl/qekZZF2eMpZpUR1n7
 ---
 
-I am a third year PhD student at the University of Missouri, advised by Tanya Christiansen. Broadly speaking, my research interests are in Partial Differential Equations, especially Spectral and Scattering Theory. 
+I am a third year PhD student at the University of Missouri, advised by Tanya Christiansen. Broadly speaking, my mathematical interests are in Partial Differential Equations, especially Spectral and Scattering Theory. 
 
-Before coming to UM, I completed a BS in Mathematics & Philosophy and an MA in Mathematics from the University of Alabama. 
+Before coming to the University of Missouri, I finished a BS in Mathematics & Philosophy and an MA in Mathematics from the University of Alabaama. 
 
 My CV can be found [here](files/cv/jtylawrence_cv.pdf).
-
-> #### Contact
-> Office: 20 Mathematical Sciences Building <br>
-> Email (UM): [jlqbx@missouri.edu](mailto:jlqbx@missouri.edu) <br>
-> Email (personal): [jtylawrence@outlook.com](mailto:jtylawrence@outlook.com)
