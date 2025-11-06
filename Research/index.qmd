@@ -8,7 +8,7 @@ Scattering Theory is the study of perturbations on wave propagation. It lives (p
 
 ### Master's Work
 
-For my master's degree, I completed a project titled [**The Hardy-Littlewood Maximal Function**](files/research/HardyLittlewoodMaximalFunction.pdf), advised by Kabe Moen. 
+For my master's degree, I completed a project titled [**The Hardy-Littlewood Maximal Function**](files/HardyLittlewoodMaximalFunction.pdf), advised by Kabe Moen. 
 
 <details>
     <summary>Abstract</summary>
@@ -17,7 +17,7 @@ For my master's degree, I completed a project titled [**The Hardy-Littlewood Max
 
 ### Talks Given
 
-+ Graduate Student Seminar, University of Missouri, *Best Constants for the Hardy-Littlewood Maximal Theorem*, Fall 2024 [[slides](files/research/HardyLittlewood_slides.pdf)]
++ Graduate Student Seminar, University of Missouri, *Best Constants for the Hardy-Littlewood Maximal Theorem*, Fall 2024 [[slides](files/HardyLittlewood_slides.pdf)]
 
 ### Conferences Attended
 

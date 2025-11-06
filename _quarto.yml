@@ -16,10 +16,14 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - research.qmd
-      - teaching.qmd
-      - coursework.qmd
-      - projects.qmd
+      - text: Research
+        href: Research/index.qmd
+      - text: Teaching
+        href: Teaching/index.qmd
+      - text: Coursework
+        href: Coursework/index.qmd
+      - text: Projects
+        href: Projects/index.qmd
 
 format:
   html:

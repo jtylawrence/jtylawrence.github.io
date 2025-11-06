@@ -16,5 +16,20 @@
   },
   "projects.qmd": {
     "projects.html": "ccb54f88"
+  },
+  "Research/research.qmd": {
+    "research.html": "4a9ef0b2"
+  },
+  "Research/index.qmd": {
+    "index.html": "f5d1c226"
+  },
+  "Projects/index.qmd": {
+    "index.html": "9f233679"
+  },
+  "Coursework/index.qmd": {
+    "index.html": "b4858f43"
+  },
+  "Teaching/index.qmd": {
+    "index.html": "70167c80"
   }
 }
