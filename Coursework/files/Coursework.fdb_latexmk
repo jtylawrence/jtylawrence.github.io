@@ -1,6 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1751230351.72341 "/Users/jtylawrence/Documents/jtylawrence.github.io/Coursework/Files/Coursework.tex" "Coursework.pdf" "Coursework" 1751230352.24156 0
-  "/Users/jtylawrence/Documents/jtylawrence.github.io/Coursework/Files/Coursework.tex" 1751230349.6874 5214 abd728243452f8d8a12d816b8679d9a4 ""
+["pdflatex"] 1762454664.0269 "Coursework.tex" "Coursework.pdf" "Coursework" 1762454664.51364 0
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm" 1136768653 1616 371d1ee60c04b008c8fd760060cd34f1 ""
@@ -178,9 +177,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1750979173 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "Coursework.aux" 1751230352.19905 109 1b4638c458e3533924da7a103a657316 "pdflatex"
-  "Coursework.tex" 1751230349.6874 5214 abd728243452f8d8a12d816b8679d9a4 ""
-  "preamble.tex" 1750978319.89452 2514 2469a6e8b7f9eed7722e1a70f2f089ec ""
+  "Coursework.aux" 1762454664.47768 109 1b4638c458e3533924da7a103a657316 "pdflatex"
+  "Coursework.tex" 1762454663.9335 6281 869eea6f7d454bbba0966c76d6080880 ""
+  "preamble.tex" 1762180638.11044 2514 2469a6e8b7f9eed7722e1a70f2f089ec ""
   (generated)
   "Coursework.aux"
   "Coursework.log"

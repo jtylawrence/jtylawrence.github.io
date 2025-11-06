@@ -10,4 +10,4 @@ I am currently reading through chapters 2 and 3 of [*Mathematical Theory of Scat
 
 ### Past
 
-In Summer 2025, I (partially) worked through *Methods of Modern Mathematical Physics I: Functional Analysis* by M. Reed and B. Simon.
+In Summer 2025, I (partially) worked through [*Methods of Modern Mathematical Physics I: Functional Analysis*](https://www.sciencedirect.com/book/9780125850018/methods-of-modern-mathematical-physics#book-description) by M. Reed and B. Simon.
