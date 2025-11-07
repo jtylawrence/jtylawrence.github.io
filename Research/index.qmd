@@ -4,16 +4,15 @@ title: "Research"
 
 > **Interests**: Analysis; Partial Differential Equations; Scattering Theory
 
-Scattering Theory is the study of perturbations on wave propagation. It lives (primarily) at the intersection of partial differential equations, functional analysis, and microlocal analysis. 
-
 ### Master's Work
 
 For my master's degree, I completed a project titled [**The Hardy-Littlewood Maximal Function**](files/HardyLittlewoodMaximalFunction.pdf), advised by Kabe Moen. 
 
-<details>
-    <summary>Abstract</summary>
-    This project is primarily concerned with the sharp constants in the weak $(1,1)$ inequality and strong $(p,p)$ inequalities for the Hardy-Littlewood maximal function. We begin by providing various (but equivalent) definitions of the Hardy-Littlewood maixmal function. Afterwards, we state and prove the aforementioned inequalities, and end with a summary and (some) proofs of the known sharp constants. 
-</details>
+::: {.callout-note collapse="true" appearance="minimal"}
+## Abstract
+
+This project is primarily concerned with the sharp constants in the weak $(1,1)$ inequality and strong $(p,p)$ inequalities for the Hardy-Littlewood maximal function. We begin by providing various (but equivalent) definitions of the Hardy-Littlewood maximal function. Afterwards, we state and prove the aforementioned inequalities and end with a summary and (some) proofs of the known sharp constants. 
+:::
 
 ### Talks Given
 
