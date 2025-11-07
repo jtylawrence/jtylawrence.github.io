@@ -6,6 +6,7 @@ website:
   title: "Jacob Lawrence"
   favicon: files/infinity.svg
   bread-crumbs: true
+  google-analytics: G-1JBEBWWGE2
   navbar:
     tools:
       - icon: github
