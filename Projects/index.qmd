@@ -6,8 +6,10 @@ title: "Projects"
 
 ### Current
 
-I am currently reading through chapters 2 and 3 of [*Mathematical Theory of Scattering Resonances*](https://bookstore.ams.org/gsm-200/) by S. Dyatlov and M. Zworksi.
+I am currently reading through [*Spectral Theory: Basic Concepts and Applications*](https://link.springer.com/book/10.1007/978-3-030-38002-1) by D. Borthwick.
 
 ### Past
+
+In Fall 2025, I read through chapters 2 and 3 of [*Mathematical Theory of Scattering Resonances*](https://bookstore.ams.org/gsm-200/) by S. Dyatlov and M. Zworksi.
 
 In Summer 2025, I (partially) worked through [*Methods of Modern Mathematical Physics I: Functional Analysis*](https://www.sciencedirect.com/book/9780125850018/methods-of-modern-mathematical-physics#book-description) by M. Reed and B. Simon.
