@@ -34,7 +34,3 @@ format:
       dark: [cosmo, files/theme-dark.scss]
     css: styles.css
     toc: true
-
-
-
-

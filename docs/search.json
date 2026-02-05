@@ -116,7 +116,7 @@
     "href": "Teaching/index.html",
     "title": "Teaching",
     "section": "",
-    "text": "My teaching evaluations are available upon request.\n\n\nCurrent Teaching\nI am currenlty teaching two sections (each with around 30 students) of MATH 1300: Finite Mathematics.\n\n\nPast Teaching\n\nUniversity of Missouri\nUnless otherwise mentioned, I was the primary instructor on record for two sections, each with around 30 students.\n\nMATH 1050: Quantitative Reasoning - Summer 2025 (TA)\nMATH 1300: Finite Mathematics - Fall 2024, Spring 2025\nMATH 1100: College Algebra - Fall 2023, Spring 2024\n\n\n\nUniversity of Alabama\nFor each of the given semesters below, I was among one of four TAs for around 50 total students in both courses.\n\nPHL 105/195: (Honors) Introduction to Deductive Logic - Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021"
+    "text": "My teaching evaluations are available upon request.\n\n\nCurrent Teaching\nI am currenlty teaching two sections (each with around 30 students) of MATH 1050: Quantitative Reasoning.\n\n\nPast Teaching\n\nUniversity of Missouri\nUnless otherwise mentioned, I was the primary instructor on record for two sections, each with around 30 students.\n\nMATH 1050: Quantitative Reasoning - Summer 2025 (TA)\nMATH 1300: Finite Mathematics - Fall 2024, Spring 2025, Fall 2025\nMATH 1100: College Algebra - Fall 2023, Spring 2024\n\n\n\nUniversity of Alabama\nFor each of the given semesters below, I was among one of four TAs for around 50 total students in both courses.\n\nPHL 105/195: (Honors) Introduction to Deductive Logic - Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021"
   },
   {
     "objectID": "Projects/index.html",
@@ -131,5 +131,12 @@
     "title": "Coursework",
     "section": "",
     "text": "A list of courses I have taken at the University of Missouri can be found here.\n\n\nLecture Notes\nI am currently typesetting some of my previous coursework’s lecture notes. Once those are finished, they can be found here.\n\nMATH 7920 - Advanced Linear Algebra\nMATH 8420 - Analysis I\nMATH 8421 - Analysis II\nMATH 8425 - Complex Analysis\nMATH 8302.1 - Theory of Distributions\nMATH 8445 - Partial Differential Equations I"
+  },
+  {
+    "objectID": "Projects/TraceClass/index.html",
+    "href": "Projects/TraceClass/index.html",
+    "title": "Trace Class Operators",
+    "section": "",
+    "text": "\\[\n    \\DeclareMathOperator{\\R}{\\mathbb{R}}\n    \\DeclareMathOperator{\\tr}{tr}\n\\]\n\nRecall: given an \\(n\\times n\\) matrix \\(A=\\begin{pmatrix} a_{jk} \\end{pmatrix}_{1\\leq j,k\\leq n}\\), the trace of \\(A\\) is \\[\n    \\tr A=\\sum_{j=1}^n a_{jj},\n\\] i.e., the sum of the diagonal elements of \\(A\\). Given an orthonormal basis \\(\\{\\phi_j\\}_{j=1}^n\\), \\[\n\\tr A=\\sum_{j=1}^n \\langle Ae_j, e_j\\rangle.\n\\]\nWe can generalize this as follows:"
   }
 ]
